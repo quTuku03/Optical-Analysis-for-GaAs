@@ -57,13 +57,13 @@ Amorphous GaAs (a-GaAs):
   > Found Eg:      [Value calculated by fit] eV
   > Theoretical Eg: 1.5 - 1.7 eV
 ```
-## Refrences 
+## Refrences
 
-    Fujiwara, H. Spectroscopic Ellipsometry: Principles and Applications. Springer, 2007.
+### Fujiwara, H. Spectroscopic Ellipsometry: Principles and Applications. Springer, 2007.
 
-    Aspnes, D. E. "Optical functions of semiconductors." Handbook on Semiconductors, 1982.
+### Aspnes, D. E. "Optical functions of semiconductors." Handbook on Semiconductors, 1982.
 
-    Jellison, G. E., and Modine, F. A. "Parameterization of the optical functions of amorphous materials." Applied Physics Letters, vol. 69, no. 3, 1996, pp. 371–373.
+### Jellison, G. E., and Modine, F. A. "Parameterization of the optical functions of amorphous materials." Applied Physics Letters, vol. 69, no. 3, 1996, pp. 371–373.
 
 
 
