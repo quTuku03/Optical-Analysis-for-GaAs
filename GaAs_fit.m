@@ -125,4 +125,5 @@ function y=taucN(p,omega,N)
               (gam.*omega(mask)) ./ ((w0^2-omega(mask).^2).^2 + (gam.*omega(mask)).^2);
     y=y+tmp;
   end
+
 end
