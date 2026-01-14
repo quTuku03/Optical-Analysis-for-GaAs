@@ -36,7 +36,7 @@ $$\epsilon_2(\omega) \propto \frac{(\omega - E_g)^2}{\omega}$$
   **Note:**
     To test the fit, you will need experimental measurements for GaAs. 
     
-eg: Photon Energy	Re(Epsilon)	Im(Epsilon)
+eg: (Photon Energy,	Re(Epsilon),	Im(Epsilon))
 
 1.567	               18.750000 	        6.875000, 
 1.577	               18.747999	        6.878000, 
