@@ -34,7 +34,7 @@ $$\epsilon_2(\omega) \propto \frac{(\omega - E_g)^2}{\omega}$$
     Run the main script in the MATLAB Command Window
 
   **Note:**
-    To test the fit, you will need experimental measurements for GaAs.
+    To test the fit, you will need experimental measurements for GaAs from spectroscopic ellipsometers.
     
 eg: (Photon Energy in eVs,	Re(Epsilon),	Im(Epsilon))
 
