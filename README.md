@@ -33,6 +33,21 @@ $$\epsilon_2(\omega) \propto \frac{(\omega - E_g)^2}{\omega}$$
   **Execute:**
     Run the main script in the MATLAB Command Window
 
+  **Note:**
+    To test the fit, you will need experimental measurements for GaAs. 
+    
+eg: Photon Energy	Re(Epsilon)	Im(Epsilon)
+
+1.567	18.750000	6.875000
+1.577	18.747999	6.878000
+1.587	18.743999	6.886000
+1.597	18.736000	6.900000
+1.607	18.725000	6.919000
+1.617	18.711000	6.943000
+1.627	18.694000	6.971000
+1.637	18.674999	7.005000
+
+
 ##  Expected Results
 
 Upon running, the script generates a $2 \times 2$ plot window and outputs the following analysis to the console:
