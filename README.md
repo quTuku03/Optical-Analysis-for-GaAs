@@ -29,7 +29,8 @@ $$\epsilon_2(\omega) \propto \frac{(\omega - E_g)^2}{\omega}$$
 
   **Setup MATLAB:**
     Ensure all `.txt` data files are in the **Current Folder** or added to the MATLAB path.
-**Execute:**
+
+  **Execute:**
     Run the main script in the MATLAB Command Window
 
 ##  Expected Results
