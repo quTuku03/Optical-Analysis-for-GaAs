@@ -34,7 +34,7 @@ $$\epsilon_2(\omega) \propto \frac{(\omega - E_g)^2}{\omega}$$
     Run the main script in the MATLAB Command Window
 
   **Note:**
-    To test the fit, you will need experimental measurements for GaAs. 
+    To test the fit, you will need experimental measurements for GaAs.
     
 eg: (Photon Energy in eVs,	Re(Epsilon),	Im(Epsilon))
 
@@ -64,6 +64,8 @@ Amorphous GaAs (a-GaAs):
 ### 2. Aspnes, D. E. "Optical functions of semiconductors." Handbook on Semiconductors, 1982.
 
 ### 3. Jellison, G. E., and Modine, F. A. "Parameterization of the optical functions of amorphous materials." Applied Physics Letters, vol. 69, no. 3, 1996, pp. 371–373.
+
+<img width="500" height="505" alt="Gallium-arsenide-unit-cell-3D-balls" src="https://github.com/user-attachments/assets/a3272503-e0c7-4807-96a5-a691ceb4f8ad" />
 
 
 
