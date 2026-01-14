@@ -36,12 +36,12 @@ $$\epsilon_2(\omega) \propto \frac{(\omega - E_g)^2}{\omega}$$
   **Note:**
     To test the fit, you will need experimental measurements for GaAs from spectroscopic ellipsometers.
     
-eg: (Photon Energy in eVs,	Re(Epsilon),	Im(Epsilon))
+eg: (Photon Energy,	Re(Epsilon),	Im(Epsilon))
 
-1.567	               18.750000 	        6.875000, 
-1.577	               18.747999	        6.878000, 
-1.587	               18.743999	        6.886000, 
-1.597	               18.736000	        6.900000
+1.567eV	               18.750000 	        6.875000, 
+1.577eV	               18.747999	        6.878000, 
+1.587eV	               18.743999	        6.886000, 
+1.597eV	               18.736000	        6.900000
 
 
 ##  Expected Results
