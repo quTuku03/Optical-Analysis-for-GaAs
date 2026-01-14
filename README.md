@@ -17,7 +17,7 @@ Used as a baseline to model the classical electron-cloud oscillation.
 $$\epsilon_2(\omega) = \sum_{j=1}^{N} \frac{A_j \gamma_j \omega}{(\omega_{0,j}^2 - \omega^2)^2 + \gamma_j^2 \omega^2}$$
 * **Best for:** General shape fitting.
 * **Limitation:** Does not account for the band gap onset (predicts absorption at $E=0$).
-<img width="585" height="519" alt="image" src="https://github.com/user-attachments/assets/6b77d518-a460-496f-93bb-04445e21c047" />
+<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6b77d518-a460-496f-93bb-04445e21c047" />
 
 
 ### 2. Tauc-Lorentz Model
