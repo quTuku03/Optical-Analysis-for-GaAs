@@ -57,7 +57,7 @@ Amorphous GaAs (a-GaAs):
   > Found Eg:      [Value calculated by fit] eV
   > Theoretical Eg: 1.5 - 1.7 eV
 ```
-## Refrences
+## References
 
 ### 1. Fujiwara, H. Spectroscopic Ellipsometry: Principles and Applications. Springer, 2007.
 
