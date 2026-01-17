@@ -5,10 +5,8 @@ This project performs a computational analysis of the dielectric function ($\eps
 1.  **Crystalline (c-GaAs):** Ordered zincblende structure with sharp optical transitions.
 2.  **Amorphous (a-GaAs):** Disordered structure with broadened absorption features.
 
-  <img width="646" height="516" alt="image" src="https://github.com/user-attachments/assets/4c6cd4ec-812e-4e8e-94a6-a6ad9b49081f" />
 
-
-The MATLAB script fits experimental data using non linear least squares optimization (`fminsearch`) to extract critical physical parameters, specifically the **Optical Band Gap ($E_g$)**.
+The MATLAB script fits experimental data using non linear least squares optimization (`fminsearch`) to extract physical parameters, specifically the **Optical Band Gap ($E_g$)**.
 
 ## Theoretical Models
 
@@ -17,7 +15,7 @@ Used as a baseline to model the classical electron-cloud oscillation.
 $$\epsilon_2(\omega) = \sum_{j=1}^{N} \frac{A_j \gamma_j \omega}{(\omega_{0,j}^2 - \omega^2)^2 + \gamma_j^2 \omega^2}$$
 * **Best for:** General shape fitting.
 * **Limitation:** Does not account for the band gap onset (predicts absorption at $E=0$).
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/6b77d518-a460-496f-93bb-04445e21c047" />
+
 
 
 ### 2. Tauc-Lorentz Model
@@ -65,7 +63,6 @@ Amorphous GaAs (a-GaAs):
 
 ### 3. Jellison, G. E., and Modine, F. A. "Parameterization of the optical functions of amorphous materials." Applied Physics Letters, vol. 69, no. 3, 1996, pp. 371–373.
 
-<img width="100" height="105" alt="Gallium-arsenide-unit-cell-3D-balls" src="https://github.com/user-attachments/assets/a3272503-e0c7-4807-96a5-a691ceb4f8ad" />
 
 
 
