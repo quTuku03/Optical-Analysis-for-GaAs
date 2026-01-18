@@ -64,6 +64,8 @@ Amorphous GaAs (a-GaAs):
 ### 3. Jellison, G. E., and Modine, F. A. "Parameterization of the optical functions of amorphous materials." Applied Physics Letters, vol. 69, no. 3, 1996, pp. 371–373.
 
 
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/90396ba8-1ae6-4b80-98f8-e246a5955546" />
+
 
 
 
