@@ -1,7 +1,6 @@
 %% Project4_GaAs_Fitting.m
 clear; clc; close all;
 
-%% Data
 opts = detectImportOptions('4 project A-ga_as_isa.txt','NumHeaderLines',4);
 data_c = readmatrix('4 project A-ga_as_isa.txt', opts);
 energy_c = data_c(:,1);
@@ -12,7 +11,7 @@ data_a = readmatrix('4 project Gaas_asp.txt', opts2);
 energy_a = data_a(:,1);
 eps2_a   = data_a(:,3);
 
-%% Fitting c-GaAs
+%% c-GaAs
 % Lorentz (2 oscillators) - Standard baseline
 x0_cL   = [25,0.5,3.0, 40,1.5,4.8];
 cost_cL = @(p) sum((lorentzN(p,energy_c,2) - eps2_c).^2);
@@ -28,7 +27,7 @@ x0_cTL = [ ...
      40, 2.0, 4.00, 1.43, ...  % Osc 3
     180, 1.0, 4.80, 1.43];     % Osc 4
 
-% Cost function with STRONG penalty to lock Eg at 1.43
+% Cost function
 
 target_Eg = 1.430;
 cost_cTL = @(p) sum((taucN(p,energy_c,4) - eps2_c).^2) + ...
@@ -38,7 +37,8 @@ options  = optimset('MaxFunEvals', 50000, 'MaxIter', 50000);
 p_cTL    = fminsearch(cost_cTL, x0_cTL, options);
 fit_cTL  = taucN(p_cTL,energy_c,4);
 chi2_cTL = sum((fit_cTL - eps2_c).^2)/numel(eps2_c);
-%% Fitting a-GaAs
+
+%% a-GaAs
 numOsc = 4;  
 % x0:
 x0_aL4   = [18,1.2,3.1, 15,2.5,4.2, 10,1.0,2.8, 8,1.0,5.0];
@@ -56,11 +56,11 @@ p_aTL4    = fminsearch(cost_aTL4, x0_aTL4);
 fit_aTL4  = taucN(p_aTL4,energy_a,numOsc);
 chi2_aTL4 = sum((fit_aTL4 - eps2_a).^2)/numel(eps2_a);
 
-%% Band Gap Analysis
+%% Band Gap 
 %  Eg from the c-GaAs fit
 Eg_c_found = p_cTL(4); 
 
-%  Eg from the a-GaAs fit 
+%  Eg from a-GaAs 
 Eg_a_found = p_aTL4(4); 
 
 fprintf('Crystalline GaAs (c-GaAs):\n');
@@ -105,7 +105,7 @@ xlabel('Energy (eV)'); ylabel('Im(e)');
 title('c-GaAs: Tauc-Lorentz '); legend('Exp','Fitting'); grid on;
 text(0.1*max(energy_a),0.9*max(eps2_a),sprintf('x^2 = %.3f',chi2_aTL4),'Background','w');
 
-%% Local Functions
+%% Functions
 function y=lorentzN(p,omega,N)
   y=zeros(size(omega));
   for k=1:N
@@ -127,3 +127,4 @@ function y=taucN(p,omega,N)
   end
 
 end
+
